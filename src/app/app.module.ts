@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -15,8 +16,10 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatRadioModule} from '@angular/material/radio';
-import { ReactiveFormsModule } from '@angular/forms';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatSortModule} from '@angular/material/sort';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +39,12 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatDatepickerModule, 
     MatNativeDateModule, 
     MatRadioModule, 
-    ReactiveFormsModule
+    ReactiveFormsModule, 
+    FormsModule, 
+    HttpClientModule, 
+    MatTableModule,
+    MatPaginatorModule, 
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
