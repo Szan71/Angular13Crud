@@ -1,0 +1,41 @@
+{
+  "productList": [
+    {
+      "productName": "Apple",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 120,
+      "comment": "csncksdc",
+      "date": "2022-02-01T18:15:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Laptop",
+      "category": "Electronics",
+      "freshness": "Second Hand",
+      "price": 2000,
+      "comment": "laptop",
+      "date": "2022-02-10T18:15:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "Fridge",
+      "category": "Electronics",
+      "freshness": "Used",
+      "price": 1100,
+      "comment": "Cool",
+      "date": "2020-03-11T18:15:00.000Z",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
